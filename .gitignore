@@ -1,0 +1,43 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
+ 
+# Common credential files
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
+*creds*
+*.dat
+*password*
+*.httr-oauth*
+**/package-lock.json
+ 
+# Private Node Modules
+node_modules/
+creds.js
+ 
+# Private Files
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.xlsx
+ 
+ 
+# Mac/OSX
+.DS_Store
+ 
+ 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# C extensions
+*.so
